@@ -1,5 +1,5 @@
 if ( "serviceWorker" in navigator ) {
-    navigator.serviceWorker.register("./sw.js")
+    navigator.serviceWorker.register("./saw.js")
     .then( nkanAbo => console.log( "Alhamdulillah!!! Adupe" ))
     .catch( asise => console.log( "Asise Waye" ))
 }
