@@ -1,0 +1,37 @@
+{
+    "name": "Pro Builders",
+    "short_name": "Pro Builders", 
+    "start_url": "/",
+    "background_color": "#2700AE",
+    "theme_color": "#2700AE",
+    "orientation": "portrait-primary",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "favicon.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "favicon.png",
+            "sizes": "384x384",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "favicon.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "dir": "ltr",
+    "description": "This is an application built to teach bulding construction.",
+    "scope": "/",
+    "serviceWorker": {
+        "src":"./saw.js",
+        "scope":"/"
+    },
+    "prefer_related_applications": true
+}
